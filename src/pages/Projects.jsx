@@ -31,7 +31,7 @@ const products = [
     name: "Prayer Time ",
     gitHub: "https://github.com/ahmed-codex/prayer-time-react.git",
     href: "https://prayer-time-react.vercel.app/",
-    imageSrc: ["/Screenshot (16).png"],
+    imageSrc: ["/Prayer.png"],
     imageAlt: "Front of men's Basic Tee in black.",
     description:
       "A responsive web application that displays daily Islamic prayer times based on the selected Egyptian governorate. The app fetches real-time data from an external API and presents it in a clean, modern UI",
