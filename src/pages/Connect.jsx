@@ -51,11 +51,11 @@ const Connect = () => {
                   <h2 className='text-white text-xl md:text-2xl font-serif capitalize tracking-wide flex items-center justify-center mb-4'>Send me a message </h2>
                   <form ref={form} onSubmit={sendEmail} className='flex items-start justify-center text-white flex-col border-t pt-3 border-gray-300'>
                     <label className='mb-2'>Name</label>
-                    <input type="text" name="name" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg text-gray-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='Full Name '/>
+                    <input type="text" name="name" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg placeholder-gray-500 text-white focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='Full Name '/>
                     <label className='mb-2'>Email</label>
-                    <input type="email" name="email" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg text-gray-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='E-Mail ' />
+                    <input type="email" name="email" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg placeholder-gray-500 text-white focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='E-Mail ' />
                     <label className='mb-2'>Message</label>
-                    <textarea name="message" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg text-gray-500 focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='Message ' />
+                    <textarea name="message" required className='bg-black/20 py-2 px-2 mb-4 w-55 sm:w-75 md:w-85 rounded-lg placeholder-gray-500 text-white focus:shadow-[0_0_20px_rgba(59,130,246,0.7)] focus:border-none' placeholder='Message ' />
                     <input type="submit" value="Send" className='w-full bg-blue-900 py-2 transition-all duration-300 rounded-2xl cursor-pointer hover:bg-indigo-800'/>
                   </form>
               </div>
