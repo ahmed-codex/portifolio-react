@@ -24,8 +24,8 @@ const skills = [
 const Skills = () => {
   
   return (
-    <div id='skills' className="h-screen pt-10 md:pt-20">
-      <div className='py-16 w-3/4 md:w-2/3 mx-auto my-auto bg-black/20 shadow-[0_0_20px_rgba(59,130,246,0.7)] rounded-4xl '>
+    <div id='skills' className="h-auto pt-22 sm:pt-25 pb-10">
+      <div className='py-12 md:py-16 w-3/4 md:w-2/3 mx-auto my-auto bg-black/20 shadow-[0_0_20px_rgba(59,130,246,0.7)] rounded-4xl '>
         <div className='flex flex-col gap-5 items-center justify-center mb-6 md:mb-15'>
           <h2 className='text-3xl md:text-5xl tracking-wide  text-white font-bold'>Skills</h2>
           <p className='text-gray-400 text-md md:text-xl md:tracking-wider font-medium md:font-semibold capitalize'>you can see my skills here</p>

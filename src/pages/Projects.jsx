@@ -40,9 +40,9 @@ const products = [
 
 const Project = () => {
   return (
-    <div id="projects" className="h-auto md:mb-0">
-      <div className="mx-auto flex items-center justify-center flex-col  bg-black/20 sm:px-6 md:py-12   lg:px-8">
-        <h2 className="text-4xl capitalize font-bold tracking-wide my-5 text-gray-200">
+    <div id="projects" className="h-auto pt-16 md:pt-10 md:mb-0">
+      <div className="mx-auto flex items-center justify-center flex-col  bg-black/20 sm:px-6 py-5 md:py-12   lg:px-8">
+        <h2 className="text-4xl capitalize font-bold tracking-wide text-gray-200">
           Projects
         </h2>
 
