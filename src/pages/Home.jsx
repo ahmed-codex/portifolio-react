@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="bg-[url('https://images.pexels.com/photos/5363190/pexels-photo-5363190.jpeg')] bg-cover bg-center w-full h-screen ">
       <div className="pt-16 flex items-center  md:justify-between justify-center px-5 md:px-20 h-screen  ">
-        <div className="w-full md:w-1/2 flex flex-col gap-7">
+        <div className="w-full md:w-3/4 flex flex-col gap-7">
           <h2 className="bg-linear-to-r/oklch from-slate-900 to-purple-950 text-white text-lg sm:text-xl md:text-2xl font-semibold md:font-bold tracking-wide capitalize w-fit md:py-4 md:px-4 py-2 px-2 border border-gray-400 ">
             Welcome all in my portifolio
           </h2>
