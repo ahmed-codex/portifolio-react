@@ -25,7 +25,7 @@ const Home = () => {
             hello everyone i have 1 year of experience in web developement{" "}
           </p>
         </div>
-        <div className="relative w-1/2 md:flex items-center justify-center hidden ">
+        <div className="relative w-1/2 lg:flex items-center justify-center hidden ">
             <div className="">
                 <img src="/11383061.png" className="w-120 h-120  object-contain animate-[spin_80s_linear_infinite]  drop-shadow-[0_0_20px_rgba(0,150,255,0.7)]" alt="" />
             </div>
