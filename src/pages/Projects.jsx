@@ -16,13 +16,13 @@ const products = [
     href: "https://ecommerce-vite-react-mu.vercel.app/",
     imageSrc: [
       "/heroPage.jpeg",
-      "/home.jpeg",
+      "/homeEcommerce.jpeg",
       "/cart.jpeg",
       "/connect.jpeg",
       "/about.jpeg",
     ],
 
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "ecommerce-vite-react",
     description:
       "A modern E-Commerce web application built with React and Vite. It features product browsing with category filtering, search functionality, product details pages, and a fully functional shopping cart and wishlist system. The app provides smooth navigation using React Router and is designed for high performance and a clean, user-friendly experience, powered by a mock API",
   },
@@ -32,9 +32,19 @@ const products = [
     gitHub: "https://github.com/ahmed-codex/prayer-time-react.git",
     href: "https://prayer-time-react.vercel.app/",
     imageSrc: ["/Prayer.png"],
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "prayer-time-react",
     description:
       "A responsive web application that displays daily Islamic prayer times based on the selected Egyptian governorate. The app fetches real-time data from an external API and presents it in a clean, modern UI",
+  },
+  {
+    id: 3,
+    name: "Authentication-UI ",
+    gitHub: "https://github.com/ahmed-codex/Authentication-UI-Project",
+    href: "https://ahmed-codex.github.io/Authentication-UI-Project/",
+    imageSrc: ["/home (1).png", "/LoginPage.png", "RegisterPage.png"],
+    imageAlt: "Authentication-UI-Project",
+    description:
+      "A responsive JavaScript-based web application featuring login and registration with password validation, show/hide password functionality, and a simple static home page. The app uses local storage for user session management using Html5, Css3 and JavaScript Integration. ",
   },
 ];
 

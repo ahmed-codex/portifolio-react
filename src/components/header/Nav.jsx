@@ -54,7 +54,7 @@ export default function Nav() {
           </div>
 
           <div className="logo tracking-wide flex shrink-0 items-center text-2xl sm:text-2xl md:text-3xl ml-10 md:ml-0 text-white ">
-            <h1>Portifolio</h1>
+            <h1>Portfolio</h1>
           </div>
 
           <div className="flex items-center justify-center sm:gap-15 md:gap-10 lg:gap-20 sm:items-stretch sm:justify-start">

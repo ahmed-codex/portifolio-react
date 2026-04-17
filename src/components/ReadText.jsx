@@ -5,9 +5,9 @@ const ReadMore = ({ text }) => {
 
   return (
     <p className="text-sm text-gray-400">
-      {isOpen ? text : text.slice(0, 100)}
+      {isOpen ? text : text.slice(0, 90)}
 
-      {text.length > 100 && (
+      {text.length > 90 && (
         <span
           onClick={() => setIsOpen(!isOpen)}
           className="text-blue-400 cursor-pointer ml-1"

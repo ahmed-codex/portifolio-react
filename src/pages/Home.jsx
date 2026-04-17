@@ -10,7 +10,9 @@ const Home = () => {
             Welcome all in my portifolio
           </h2>
           <h1 className="text-white text-3xl sm:text-4xl h-48 md:h-fit md:text-5xl capitalize font-extrabold tracking-wide leading-[1.4]">
-            hi! i'm <br /> Ahmed<br /> Mohamed <br />Hassan,
+            hi! i'm <br /> Ahmed
+            <br /> Mohamed <br />
+            Hassan,
             <span>
               <ReactTyped
                 strings={["Web Devolper", "FrontEnd devolper", "React JS"]}
@@ -26,9 +28,13 @@ const Home = () => {
           </p>
         </div>
         <div className="relative w-1/2 lg:flex items-center justify-center hidden ">
-            <div className="">
-                <img src="/11383061.png" className="w-120 h-120  object-contain animate-[spin_80s_linear_infinite]  drop-shadow-[0_0_20px_rgba(0,150,255,0.7)]" alt="" />
-            </div>
+          <div className="">
+            <img
+              src="/11383061.png"
+              className="w-120 h-120  object-contain animate-[spin_80s_linear_infinite]  drop-shadow-[0_0_20px_rgba(0,150,255,0.7)]"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>
